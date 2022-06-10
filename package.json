@@ -1,0 +1,28 @@
+{
+  "name": "zhfc-cli",
+  "version": "1.0.0",
+  "description": "smart house production cli",
+  "main": "packages/index.js",
+  "bin": {
+    "zhfc-cli": "./bin/cli.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "zhfc-cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "chalk": "^4.1.2",
+    "commander": "^9.3.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.4",
+    "metalsmith": "^2.4.3",
+    "minimatch": "^5.1.0",
+    "ora": "^5.4.0",
+    "rimraf": "^3.0.2",
+    "user-home": "^3.0.0"
+  }
+}
