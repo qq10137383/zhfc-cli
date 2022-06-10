@@ -6,11 +6,16 @@
   "bin": {
     "zhfc-cli": "./bin/cli.js"
   },
-  "scripts": {},
+  "scripts": {
+  },
   "keywords": [
     "zhfc-cli"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vue-cli.git"
+  },
+  "author": "bubble",
   "license": "ISC",
   "dependencies": {
     "async": "^3.2.4",
