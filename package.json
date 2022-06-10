@@ -15,7 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/vuejs/vue-cli.git"
   },
-  "author": "bubble",
+  "files": [
+    "bin",
+    "packages"
+  ],
   "license": "ISC",
   "dependencies": {
     "async": "^3.2.4",
