@@ -1,19 +1,18 @@
 {
   "name": "zhfc-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "smart house production cli",
   "main": "packages/index.js",
   "bin": {
     "zhfc-cli": "./bin/cli.js"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "zhfc-cli"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vue-cli.git"
+    "url": "git+https://github.com:qq10137383/zhfc-cli.git"
   },
   "files": [
     "bin",
@@ -29,6 +28,7 @@
     "inquirer": "^8.2.4",
     "metalsmith": "^2.4.3",
     "minimatch": "^5.1.0",
+    "node-fetch": "^2.6.7",
     "ora": "^5.4.0",
     "rimraf": "^3.0.2",
     "user-home": "^3.0.0"

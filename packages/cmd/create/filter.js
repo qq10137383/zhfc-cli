@@ -1,5 +1,5 @@
 const match = require('minimatch')
-const evaluate = require('../utils/eval')
+const evaluate = require('../../utils/eval')
 
 /**
  * 文件过滤

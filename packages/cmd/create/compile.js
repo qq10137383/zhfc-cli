@@ -3,10 +3,10 @@ const path = require('path')
 const chalk = require('chalk')
 const Metalsmith = require('metalsmith')
 const Handlebars = require('handlebars')
-const ask = require('../utils/ask')
-const meta = require('../utils/meta')
-const filter = require('../utils/filter')
-const logger = require('../utils/logger')
+const ask = require('../../utils/ask')
+const logger = require('../../utils/logger')
+const meta = require('./meta')
+const filter = require('./filter')
 
 // 注册handlebars helper
 Handlebars.registerHelper('if_eq', function (a, b, opts) {

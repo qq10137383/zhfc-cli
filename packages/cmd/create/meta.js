@@ -1,7 +1,6 @@
 const path = require('path')
 const exists = require('fs').existsSync
 
-
 /**
  * 获取模板元数据信息
  * @param {string} name 应用名 
